@@ -1017,6 +1017,20 @@ def main():
            
         </div>
         """, unsafe_allow_html=True)
+
+        st.header("About Our Project")
+        st.markdown("""
+        <div class="about-project">
+            <h4><em>"Making anemia detection simple, accurate, and accessible through smart blood report analysis and symptom assessment."</em></h4>
+            <p>We developed an <b>Anemia Diagnostic Assistant</b> that combines <b>blood report analysis</b> 
+            and <b>symptom assessment</b> to support early detection of anemia. 
+            The tool predicts anemia type, severity, and possible causes, 
+            while also allowing users to input symptoms for a quick risk check.
+            Designed with a user-friendly interface, it helps both patients and healthcare 
+            professionals by making diagnosis easier and more accessible.</p>
+        </div>
+        """, unsafe_allow_html=True)
+
         
         st.markdown("<hr style='margin: 30px 0; border-color: rgba(255,255,255,0.1);'>", unsafe_allow_html=True)
         
